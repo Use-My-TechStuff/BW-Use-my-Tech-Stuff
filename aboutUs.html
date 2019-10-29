@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://kit.fontawesome.com/9ac6020c07.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/aboutUs.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="profilePic"></section>
+      <div class="about-bg">
+        <section class="about">
+          <h1>Daniel Morales</h1>
+          <p>
+            I’m 23 years old. Currently studying web development at Lambda School. I love designing and coding!
+          </p>
+          <br />
+          <p>We built this project with the purpose of helping those who can’t afford high priced tech gadgets by bypassing the middleman and renting from a real person!</p>
+        </section>
+      </div>
+      <nav>
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href=""><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-plus"></i></a>
+        <a href="#"><i class="far fa-user"></i></a>
+        <div class="topnav">
+          <div id="myLink"></div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunctions()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <script>
+      function myFunctions() {
+        var x = document.getElementById('myLink');
+        if (x.style.display === 'block') {
+          x.style.display = 'none';
+        } else {
+          x.style.display = 'block';
+        }
+      }
+    </script>
+  </body>
+</html>

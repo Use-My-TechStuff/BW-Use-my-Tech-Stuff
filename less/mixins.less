@@ -1,0 +1,25 @@
+// Mixins Here
+.btn-color (@background,@color, @font-size) {
+  background: @background;
+  color: @color;
+  font-size: @font-size;
+}
+
+.btn-size(@width, @height, @border-radius) {
+  width: @width;
+  height: @height;
+  border-radius: @border-radius;
+}
+
+.flex(@flex-flow, @justify, @align) {
+  display: flex;
+  flex-flow: @flex-flow;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.center(@width: 100%, @margin: 0 auto, @max-width: 98vw) {
+  width: @width;
+  margin: @margin;
+  max-width: @max-width;
+}
